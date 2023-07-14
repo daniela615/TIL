@@ -207,9 +207,8 @@ first commit
 
 ### (7) ```git remote```
 
-* ```git remote add [저장소 이름] [저장소 주소]``` : git remote add origin [https://github.com/daniela615/origin](https://github.com/daniela615/origin)
+* ```git remote add [저장소 이름] [저장소 주소]``` : git remote add origin https://github.com/daniela615/origin	
   * git에게 원격저장소(remote) 추가(add)를 명령
 
 * 저장소 이름: ```origin```
-* 저장소 주소: [https://github.com/daniela615/origin](https://github.com/daniela615/origin)
-
+* 저장소 주소: https://github.com/daniela615/origin
