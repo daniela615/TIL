@@ -23,6 +23,9 @@ GIT으로 특정 폴더(프로젝트) 관리 시작
 ```
 $ git init
 Initialized empty Git repository in C:/Users/daniela/intro/.git/
+
+### git 폴더로 만들려는 폴더 안에서 ```git init```만 쓰면 됨
+### 잘 되었는지 보려면 ls -d .git을 쳐서 .git/이라는 숨김파일 생성되었으면 ok
 ```
 
 * 코드 관리 단위(기준): 폴더
@@ -207,8 +210,18 @@ first commit
 
 ### (7) ```git remote```
 
-* ```git remote add [저장소 이름] [저장소 주소]``` : git remote add origin https://github.com/daniela615/origin	
+* ```git remote add [저장소 이름] [저장소 주소]``` : git remote add origin https://github.com/daniela615/intro.git	
   * git에게 원격저장소(remote) 추가(add)를 명령
 
 * 저장소 이름: ```origin```
-* 저장소 주소: https://github.com/daniela615/origin
+* 저장소 주소: https://github.com/daniela615/intro.git
+
+* 저장소 삭제: ```git remote remove [저장소 이름]```
+
+  
+
+### (8) ``` git push```
+
+* ```git push [저장소 이름] [브랜치 이름]``` : git이 관리하는 디렉토리에 있는 파일들을 github에 올려 저장하기
+* ```[브랜치 이름]``` 은 브랜치가 따로 없는 경우 그냥 master 쓰면 됨.  
+
